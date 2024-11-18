@@ -8,7 +8,7 @@ class RomanTest(unittest.TestCase):
         self.assertEqual(42, 6 * 7)
 
     def test_convert_single_digit_roman(self):
-        self.assertEqual(1, Roman.convert("II"))
+        self.assertEqual(1, Roman.convert("I"))
         self.assertEqual(5, Roman.convert("V"))
         self.assertEqual(10, Roman.convert("X"))
         self.assertEqual(50, Roman.convert("L"))
